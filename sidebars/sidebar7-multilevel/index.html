@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modern Multi-level Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="https://via.placeholder.com/40" alt="Logo" class="logo">
+                <span class="brand-name">Dashboard</span>
+                <button class="toggle-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+
+            <div class="sidebar-content">
+                <nav class="menu">
+                    <!-- Dashboard Section -->
+                    <div class="menu-item">
+                        <a href="#dashboard">
+                            <i class="fas fa-home"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </div>
+
+                    <!-- Projects Section -->
+                    <div class="menu-item has-submenu">
+                        <a href="#projects">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Projects</span>
+                            <i class="fas fa-chevron-down arrow"></i>
+                        </a>
+                        <div class="submenu">
+                            <a href="#active-projects">
+                                <i class="fas fa-circle"></i>
+                                <span>Active Projects</span>
+                            </a>
+                            <a href="#archived">
+                                <i class="fas fa-archive"></i>
+                                <span>Archived</span>
+                            </a>
+                            <!-- Nested Submenu -->
+                            <div class="menu-item has-submenu nested">
+                                <a href="#categories">
+                                    <i class="fas fa-folder"></i>
+                                    <span>Categories</span>
+                                    <i class="fas fa-chevron-down arrow"></i>
+                                </a>
+                                <div class="submenu">
+                                    <a href="#web">
+                                        <i class="fas fa-globe"></i>
+                                        <span>Web Development</span>
+                                    </a>
+                                    <a href="#mobile">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Mobile Apps</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Analytics Section -->
+                    <div class="menu-item has-submenu">
+                        <a href="#analytics">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Analytics</span>
+                            <i class="fas fa-chevron-down arrow"></i>
+                        </a>
+                        <div class="submenu">
+                            <a href="#reports">
+                                <i class="fas fa-file-alt"></i>
+                                <span>Reports</span>
+                            </a>
+                            <a href="#metrics">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span>Metrics</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Settings Section -->
+                    <div class="menu-item has-submenu">
+                        <a href="#settings">
+                            <i class="fas fa-cog"></i>
+                            <span>Settings</span>
+                            <i class="fas fa-chevron-down arrow"></i>
+                        </a>
+                        <div class="submenu">
+                            <a href="#profile">
+                                <i class="fas fa-user"></i>
+                                <span>Profile</span>
+                            </a>
+                            <a href="#security">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Security</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <img src="https://via.placeholder.com/32" alt="User" class="user-avatar">
+                    <div class="user-info">
+                        <h4>John Doe</h4>
+                        <p>Admin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="topbar">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="topbar-actions">
+                    <button class="notification-btn">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">3</span>
+                    </button>
+                </div>
+            </div>
+            <div class="content">
+                <h1>Main Content</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

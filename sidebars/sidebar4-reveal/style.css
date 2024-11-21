@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: #34495e;
+    padding: 20px;
+    z-index: 1;
+}
+
+.content-wrapper {
+    position: relative;
+    min-height: 100vh;
+    background: white;
+    transition: 0.3s;
+    transform-origin: right;
+    z-index: 2;
+}
+
+.content-wrapper.active {
+    transform: translateX(250px);
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+} 

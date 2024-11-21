@@ -4,15 +4,20 @@ A collection of 10 beautiful, responsive, and customizable sidebar designs built
 
 ## 📂 Project Structure
 
-EduLearn/
-│
-├── assets/
-│   ├── images/          # Icons, avatars, and other media assets
-│   └── styles/          # CSS files for styling
-│
-├── components/          # Reusable UI components
-├── index.html           # Entry point for the platform
-└── README.md            # Project documentation
+sidebars/
+  - sidebar1-basic: Clean and modern basic sidebar  
+  - sidebar2-overlay: Overlay sidebar with blur effect  
+  - sidebar3-push: Push content sidebar with animations  
+  - sidebar4-reveal: Reveal sidebar from behind content  
+  - sidebar5-drawer: Multi-panel drawer sidebar  
+  - sidebar6-floating: Floating sidebar with hover effects  
+  - sidebar7-multilevel: Multi-level nested menu sidebar  
+  - sidebar8-minimalistic: Icon-only minimalistic sidebar  
+  - sidebar9-animated: Fully animated sidebar  
+  - sidebar10-responsive: Responsive mobile-friendly sidebar
+    --- 
+
+
 
 ## 🎯 Features
 

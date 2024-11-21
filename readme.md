@@ -169,7 +169,7 @@ MIT License - feel free to use in personal and commercial projects.
 
 ## 📫 Support
 
-For support, email [your@email.com] or open an issue in the repository.
+For support, email [san12@email.com] or open an issue in the repository.
 
 ## 🙏 Acknowledgments
 

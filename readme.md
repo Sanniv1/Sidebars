@@ -15,10 +15,9 @@ sidebars/
   - sidebar8-minimalistic: Icon-only minimalistic sidebar  
   - sidebar9-animated: Fully animated sidebar  
   - sidebar10-responsive: Responsive mobile-friendly sidebar
-    --- 
-
-
-
+    
+    ---
+    
 ## 🎯 Features
 
 ### 1. Basic Sidebar
